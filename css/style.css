@@ -1,0 +1,121 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas1 {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#ffffff, #000000);
+}
+*/
+
+header {
+    color: red;
+    font-size: 28px;
+    background-image: url('../bilder/Hintergrund1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
+
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+aside h2 {
+    color: green;
+    border: 0px;
+    border-left: 30px solid green;
+}
+
+h2 {
+    font-size: 1.6em;
+    border-color: blue;
+    border-width: 5px 3px 4px 3px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px 5px;
+}
+
+
+
+h1 {
+    font-size: 1.6em;
+    border-color: red;
+    border-width: 5px 3px 4px 3px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px 5px;
+}
+
+h3 {
+    font-size: 1.6em;
+    border-color: forestgreen;
+    border-width: 5px 3px 4px 3px;
+    border-style: solid;
+    padding: 10px;
+    margin: 20px 5px;
+}
+
+/*Mit .text definiert man classen. nun kann man einzelne texte im html einer classe zuweisen: <h1 class="special">ICh bin ein Titel</h2>
+würde man nun einen tag vorher angeben, wie zum Beispiel h2.special, dann funktioniert diese classe auch nur bei h2.
+so könnte man auch 2 .special haben, die aber für unterschiedliche tags sind und je eine andere eigenschaft haben.*/
+.special {
+    background-color: slateblue;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px 10px 5px 0px;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: 20;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid darkviolet;
+}
+
+
+table {
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+table, td, th {
+	border: 2px dotted #4c4c4c;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+thead {
+	background: rgba(0,0,0,0.1);
+
+}
+
+tfoot {
+	font-weight: bold;
+	text-align: center;
+	background: rgba(0,0,0,0.1);
+}
+
+td.preis {
+    text-align: center;
+}
